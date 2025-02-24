@@ -89,6 +89,7 @@ button {
 .navigation-list .nav-link:hover,
 .navigation-list .nav-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list .nav-link:active {
@@ -138,8 +139,10 @@ button {
   display: block;
 }
 
-.address .contact-link:hover {
+.address .contact-link:hover,
+.address .contact-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion header */
@@ -174,6 +177,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 
 .button-os {
@@ -193,9 +197,10 @@ button {
   border: none;
 }
 
-.button-os:hover {
+.button-os:hover,
+.button-os:focus {
   background: #404bbf;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion main */
@@ -304,7 +309,6 @@ button {
 .team-item-icon {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link-icon {
@@ -320,6 +324,7 @@ button {
 .team-link-icon:hover,
 .team-link-icon:focus {
   background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-svg {
@@ -457,6 +462,7 @@ button {
 .footer .team-link-icon:hover,
 .footer .team-link-icon:focus {
   background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text {
