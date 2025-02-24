@@ -99,7 +99,6 @@ button {
 .nav-link {
   padding: 24px 0;
   display: block;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio {
@@ -137,7 +136,6 @@ button {
   color: #434455;
   padding: 24px 0;
   display: block;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address .contact-link:hover {
@@ -171,7 +169,8 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.png);
+    url(../images/people-office.jpg);
+  max-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -440,6 +439,12 @@ button {
   text-transform: uppercase;
   margin-bottom: 16px;
   display: inline-block;
+}
+
+.footer-list-icon {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .footer-link-web {
