@@ -89,6 +89,7 @@ button {
 .navigation-list .nav-link:hover,
 .navigation-list .nav-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list .nav-link:active {
@@ -143,6 +144,7 @@ button {
 .address .contact-link:hover,
 .address .contact-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion header */
@@ -195,6 +197,7 @@ button {
   height: 56px;
   margin: 0 auto;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-os:hover,
